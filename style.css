@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+
+.chessboard, .bluesquare, .orangesquare{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  .chessboard{
+    width:400px;
+    height:400px;
+    border:solid 1px white;
+    
+  }
+  .bluesquare, .orangesquare{
+    height:50px;
+    width:50px;
+    float:left
+  }
+  .bluesquare{
+    background-color:#009adb;
+  }
+  .orangesquare{
+    background-color:#ff8214;
+  }
+
+
+  /* EASY */
+.container{
+    width:600px;
+    height:300px;
+    border:solid 1px white;
+    position: relative;
+}
+.stars{
+    
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+}
+.red{
+    width:600px;
+    height:20px;
+    background-color: red;
+    
+}
+.white{
+width:400px;
+height:20px;
+
+}
+/* MEDIUM */
+/* .box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: (4,1fr);
+    grid-gap:3em;
+    height:1000px;
+
+}
+.products{
+    background-color: #eee;
+    
+}
+.proimg{
+    width:200px;
+    height:300px;
+} */
+.products{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap:3em;
+    
+}
+
+.proimg{
+    max-width:100%;
+    margin-left: 28%;
+    padding-top:1em;
+    
+}
+.card h2, .card h3, .card p{
+    font-family: 'Assistant', sans-serif;
+}
+.card{
+    border: solid 1px lightgray;
+    width:100%;
+}
+.card h2{
+    font-size: 18px;
+    text-align: center;
+}
+.card h3{
+    text-align: center;
+    padding:1em;
+    font-size: 15px;
+}
+.card p{
+    padding:1em;
+    text-align: center;
+    padding-top: 1em;
+}
+.card a{
+    text-decoration: none;
+    border: 1px solid #11166b;
+    color:white;
+    background-color: #11166b;
+    padding:.8em;
+    margin-left: 46%;
+    border-radius: 2px;
+}
